@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'AvenirBlack';
+	src: url('font/avenir-black.ttf');
+}
+
+@font-face {
+	font-family: 'AvenirLight';
+	src: url('font/avenir-light.ttf');
+}
+body{
+	font-family: AvenirLight;
+}
+.box{
+	width: 1200px;
+	
+	margin:auto auto;
+}
+.box-left{
+	width: 600px;
+	height: 190px;
+	float: left;
+}
+.p1:hover{
+	transform: rotate(360deg);
+            transition: transform 1s linear;
+}
+.box-right{
+	width: 600px;
+	float: left;
+}
+.box-right p{
+	text-align: right;
+	
+}
+.box-right1{
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	float: right;
+}
+.box-right1 img{
+	float: right;
+	
+}
+
+.p1{
+	font-size: 160px;
+	font-weight: bold;
+	letter-spacing: -10px;
+	display: block;
+	margin-top: -30px;
+	font-family: AvenirBlack;
+}
+.box-box{
+	width: 137px;
+	min-height: 270px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+.box-box img{
+	cursor: pointer;  
+	transition: all 1.6s; 
+}
+.box-box img:hover{
+	transform: scale(1.4);
+}
+.box-box p:hover{
+	color: red;
+}
+.aa {
+	clear: both;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: auto auto;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+
+.aa:hover {
+	background: #000000;  
+	background: -webkit-linear-gradient(to right, #434343, #000000);  
+	background: linear-gradient(to right, #434343, #000000);
+	color: white;
+	border-radius: 10px;
+}
